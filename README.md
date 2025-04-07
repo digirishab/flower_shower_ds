@@ -15,7 +15,7 @@ Here’s what I’m thinking:
 - I’m planning to use a Stack to position each flower independently and layer them over the background.  
   Each flower will use its own AnimatedBuilder, so they can all animate on their own timelines.
 
-- Disposing is also necessary of each flower.
+- Disposing is also necessary of each animation controller.
 
 - Recycling flower objects once they’ve finished falling could help in performance optimisation.
 
